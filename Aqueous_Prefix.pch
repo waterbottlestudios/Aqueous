@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Aqueous' target in the 'Aqueous' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
