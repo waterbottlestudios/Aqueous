@@ -37,6 +37,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* AqueousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AqueousViewController.m */; };
 		FC4C9B8913DCC6650002191C /* readme in Resources */ = {isa = PBXBuildFile; fileRef = FC4C9B8813DCC6650002191C /* readme */; };
+		FC4C9B8E13DCCC4D0002191C /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C9B8C13DCCC4C0002191C /* MoreViewController.m */; };
+		FC4C9B8F13DCCC4D0002191C /* MoreClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4C9B8D13DCCC4C0002191C /* MoreClass.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +112,9 @@
 		32CA4F630368D1EE00C91783 /* Aqueous_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aqueous_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Aqueous-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Aqueous-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FC4C9B8813DCC6650002191C /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		FC4C9B8B13DCCC4C0002191C /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		FC4C9B8C13DCCC4C0002191C /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		FC4C9B8D13DCCC4C0002191C /* MoreClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MoreClass.xib; path = Classes/MoreClass.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,8 @@
 				1D3623250D0F684500981E51 /* AqueousAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* AqueousViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* AqueousViewController.m */,
+				FC4C9B8B13DCCC4C0002191C /* MoreViewController.h */,
+				FC4C9B8C13DCCC4C0002191C /* MoreViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -267,6 +274,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC4C9B8D13DCCC4C0002191C /* MoreClass.xib */,
 				2899E5210DE3E06400AC0155 /* AqueousViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Aqueous-Info.plist */,
@@ -340,6 +348,7 @@
 				2243FA541249EFA100622436 /* jQueryInjectLandscape.txt in Resources */,
 				2243FA661249EFA100622436 /* twitter_load.png in Resources */,
 				FC4C9B8913DCC6650002191C /* readme in Resources */,
+				FC4C9B8F13DCCC4D0002191C /* MoreClass.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +378,7 @@
 				2243FA631249EFA100622436 /* NSString+UUID.m in Sources */,
 				2243FA641249EFA100622436 /* SA_OAuthTwitterController.m in Sources */,
 				2243FA651249EFA100622436 /* SA_OAuthTwitterEngine.m in Sources */,
+				FC4C9B8E13DCCC4D0002191C /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
